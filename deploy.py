@@ -9,17 +9,28 @@ import sys
 import stat
 import time
 
+# Try to load local .env if it exists
+env_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".env")
+if os.path.exists(env_path):
+    with open(env_path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                key, val = line.split("=", 1)
+                os.environ[key.strip()] = val.strip()
+
 # ── Connection config ──────────────────────────────────────────────────────────
-HOST     = "46.202.161.51"
-PORT     = 65002
-USERNAME = "u176146172"
-PASSWORD = "Vip@9250664267"
-LOCAL_DIR = r"c:\myservers\lampp\htdocs\casvs"
+HOST     = os.environ.get("SSH_HOST", "46.202.161.51")
+PORT     = int(os.environ.get("SSH_PORT", "65002"))
+USERNAME = os.environ.get("SSH_USER", "u176146172")
+PASSWORD = os.environ.get("SSH_PASS")  # Loaded from env/GitHub secrets
+LOCAL_DIR = os.environ.get("LOCAL_DIR", os.path.dirname(os.path.abspath(__file__)))
+
 
 # Files/dirs to exclude from upload
 EXCLUDE = {
     ".git", "__pycache__", ".DS_Store", "Thumbs.db",
-    "deploy.py", "deploy.log",
+    "deploy.py", "deploy.log", ".env", ".github",
 }
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
