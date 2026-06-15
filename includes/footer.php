@@ -13,11 +13,11 @@
       <div class="footer-links-group">
         <h4>Quick Links</h4>
         <div class="footer-links">
-          <a href="https://casaurabhvanyasharma.com/index.php" class="footer-link" id="footerLinkHome">Home</a>
-          <a href="https://casaurabhvanyasharma.com/about.php" class="footer-link" id="footerLinkAbout">About Us</a>
-          <a href="https://casaurabhvanyasharma.com/delhi-ncr-presence.php" class="footer-link" id="footerLinkPresence">Delhi NCR Presence</a>
-          <a href="https://casaurabhvanyasharma.com/industries.php" class="footer-link" id="footerLinkIndustries">Industries We Serve</a>
-          <a href="https://casaurabhvanyasharma.com/contact.php" class="footer-link" id="footerLinkContact">Contact Us</a>
+          <a href="https://www.casaurabhvanyasharma.com/index.php" class="footer-link" id="footerLinkHome">Home</a>
+          <a href="https://www.casaurabhvanyasharma.com/about.php" class="footer-link" id="footerLinkAbout">About Us</a>
+          <a href="https://www.casaurabhvanyasharma.com/delhi-ncr-presence.php" class="footer-link" id="footerLinkPresence">Delhi NCR Presence</a>
+          <a href="https://www.casaurabhvanyasharma.com/industries.php" class="footer-link" id="footerLinkIndustries">Industries We Serve</a>
+          <a href="https://www.casaurabhvanyasharma.com/contact.php" class="footer-link" id="footerLinkContact">Contact Us</a>
         </div>
       </div>
 
@@ -25,12 +25,12 @@
       <div class="footer-links-group">
         <h4>Our Services</h4>
         <div class="footer-links">
-          <a href="https://casaurabhvanyasharma.com/audit-assurance.php" class="footer-link">Audit & Assurance</a>
-          <a href="https://casaurabhvanyasharma.com/taxation.php" class="footer-link">Direct & Indirect Taxation</a>
-          <a href="https://casaurabhvanyasharma.com/corporate-advisory.php" class="footer-link">Business Consulting & Advisory</a>
-          <a href="https://casaurabhvanyasharma.com/international-tax.php" class="footer-link">International Tax & Structuring</a>
-          <a href="https://casaurabhvanyasharma.com/accounting-advisory.php" class="footer-link">Accounting & GAAP Advisory</a>
-          <a href="https://casaurabhvanyasharma.com/bpo-outsourcing.php" class="footer-link">Business Process Outsourcing</a>
+          <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php" class="footer-link">Audit & Assurance</a>
+          <a href="https://www.casaurabhvanyasharma.com/taxation.php" class="footer-link">Direct & Indirect Taxation</a>
+          <a href="https://www.casaurabhvanyasharma.com/corporate-advisory.php" class="footer-link">Business Consulting & Advisory</a>
+          <a href="https://www.casaurabhvanyasharma.com/international-tax.php" class="footer-link">International Tax & Structuring</a>
+          <a href="https://www.casaurabhvanyasharma.com/accounting-advisory.php" class="footer-link">Accounting & GAAP Advisory</a>
+          <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing.php" class="footer-link">Business Process Outsourcing</a>
         </div>
       </div>
 
@@ -77,11 +77,11 @@
         &copy; 2025 SVS & Co. All Rights Reserved. Designed & Developed by Digidex Lab.
       </div>
       <div class="footer-legal-links">
-        <a href="https://casaurabhvanyasharma.com/privacy-policy.php" id="footerPrivacy">Privacy Policy</a>
+        <a href="https://www.casaurabhvanyasharma.com/privacy-policy.php" id="footerPrivacy">Privacy Policy</a>
         <span class="divider">|</span>
-        <a href="https://casaurabhvanyasharma.com/terms-conditions.php" id="footerTerms">Terms & Conditions</a>
+        <a href="https://www.casaurabhvanyasharma.com/terms-conditions.php" id="footerTerms">Terms & Conditions</a>
         <span class="divider">|</span>
-        <a href="https://casaurabhvanyasharma.com/disclaimer.php" id="footerDisclaimer">Disclaimer</a>
+        <a href="https://www.casaurabhvanyasharma.com/disclaimer.php" id="footerDisclaimer">Disclaimer</a>
       </div>
       <!-- Scroll To Top Button -->
       <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to Top" style="opacity: 0; pointer-events: none;">
@@ -93,6 +93,6 @@
   </footer>
 
   <!-- Theme Script (deferred so it never blocks render) -->
-  <script src="https://casaurabhvanyasharma.com/assets/js/main.js" defer></script>
+  <script src="https://www.casaurabhvanyasharma.com/assets/js/main.js" defer></script>
 </body>
 </html>
