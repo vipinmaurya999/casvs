@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block server-side includes from being indexed
+Disallow: /includes/
+
+# Allow CSS and JS so Googlebot can render pages correctly
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+
+Sitemap: https://casaurabhvanyasharma.com/sitemap.xml

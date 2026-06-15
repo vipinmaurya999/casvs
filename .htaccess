@@ -1,0 +1,146 @@
+# ==============================================================================
+# SVS & Co. — Production .htaccess
+# https://casaurabhvanyasharma.com
+# ==============================================================================
+
+# ==============================================================================
+# 1. ENGINE ON + PHP PRODUCTION SETTINGS
+# ==============================================================================
+Options -Indexes
+Options -MultiViews
+
+# Suppress PHP errors from showing to users (log server-side instead)
+php_flag  display_errors        Off
+php_flag  display_startup_errors Off
+php_value error_reporting       0
+
+# ------------------------------------------------------------------------------
+# 2. HTTPS + WWW REDIRECT (force https://www.)
+# ------------------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Redirect HTTP to HTTPS
+  RewriteCond %{HTTPS} off
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # Redirect non-www to www
+  RewriteCond %{HTTP_HOST} !^www\. [NC]
+  RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+# ------------------------------------------------------------------------------
+# 3. BLOCK ACCESS TO SENSITIVE DIRECTORIES
+# ------------------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+  RewriteRule ^includes/ - [F,L]
+</IfModule>
+
+# ------------------------------------------------------------------------------
+# 4. CUSTOM 404 ERROR PAGE
+# ------------------------------------------------------------------------------
+ErrorDocument 404 /404.php
+
+# ------------------------------------------------------------------------------
+# 5. GZIP / DEFLATE COMPRESSION
+# ------------------------------------------------------------------------------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/x-javascript
+  AddOutputFilterByType DEFLATE text/xml
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE application/xhtml+xml
+  AddOutputFilterByType DEFLATE application/rss+xml
+  AddOutputFilterByType DEFLATE application/json
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE font/ttf
+  AddOutputFilterByType DEFLATE font/woff
+  AddOutputFilterByType DEFLATE font/woff2
+  AddOutputFilterByType DEFLATE application/font-woff
+  AddOutputFilterByType DEFLATE application/font-woff2
+</IfModule>
+
+# ------------------------------------------------------------------------------
+# 6. BROWSER CACHING (Leverage Cache-Control)
+# ------------------------------------------------------------------------------
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # HTML — short cache, pages can change
+  ExpiresByType text/html                     "access plus 1 week"
+
+  # Stylesheets & Scripts — long cache (fingerprint if you version files)
+  ExpiresByType text/css                      "access plus 1 year"
+  ExpiresByType application/javascript        "access plus 1 year"
+  ExpiresByType text/javascript               "access plus 1 year"
+
+  # Images
+  ExpiresByType image/webp                    "access plus 1 year"
+  ExpiresByType image/png                     "access plus 1 year"
+  ExpiresByType image/jpeg                    "access plus 1 year"
+  ExpiresByType image/gif                     "access plus 1 year"
+  ExpiresByType image/svg+xml                 "access plus 1 year"
+  ExpiresByType image/x-icon                  "access plus 1 year"
+
+  # Fonts
+  ExpiresByType font/woff                     "access plus 1 year"
+  ExpiresByType font/woff2                    "access plus 1 year"
+  ExpiresByType application/font-woff         "access plus 1 year"
+  ExpiresByType application/font-woff2        "access plus 1 year"
+
+  # XML / JSON
+  ExpiresByType application/xml               "access plus 1 day"
+  ExpiresByType text/xml                      "access plus 1 day"
+</IfModule>
+
+# Cache-Control headers
+<IfModule mod_headers.c>
+  <FilesMatch "\.(css|js|webp|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.(php|html)$">
+    Header set Cache-Control "public, max-age=604800, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+# ------------------------------------------------------------------------------
+# 7. SECURITY HEADERS
+# ------------------------------------------------------------------------------
+<IfModule mod_headers.c>
+  # Prevent clickjacking
+  Header always set X-Frame-Options "SAMEORIGIN"
+
+  # Prevent MIME-type sniffing
+  Header always set X-Content-Type-Options "nosniff"
+
+  # XSS protection (legacy browsers)
+  Header always set X-XSS-Protection "1; mode=block"
+
+  # Referrer policy — send full URL to same origin, only origin to cross-origin
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+  # Permissions policy — disable unused browser features
+  Header always set Permissions-Policy "geolocation=(), microphone=(), camera=(), payment=()"
+
+  # HSTS — force HTTPS for 1 year (enable only after confirming HTTPS is fully working)
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+
+  # Remove server signature
+  Header always unset X-Powered-By
+  Header always unset Server
+</IfModule>
+
+# ------------------------------------------------------------------------------
+# 8. KEEP-ALIVE
+# ------------------------------------------------------------------------------
+<IfModule mod_headers.c>
+  Header set Connection keep-alive
+</IfModule>
+
+# ------------------------------------------------------------------------------
+# 9. CHARACTER SET
+# ------------------------------------------------------------------------------
+AddDefaultCharset UTF-8
