@@ -9,4 +9,4 @@ Allow: /assets/css/
 Allow: /assets/js/
 Allow: /assets/images/
 
-Sitemap: https://casaurabhvanyasharma.com/sitemap.xml
+Sitemap: https://www.casaurabhvanyasharma.com/sitemap.xml
