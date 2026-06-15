@@ -14,7 +14,7 @@ include 'includes/header.php';
       <h2>Terms & Conditions</h2>
     </div>
     <div class="breadcrumb-list">
-      <a href="https://casaurabhvanyasharma.com/index.php">Home</a>
+      <a href="https://www.casaurabhvanyasharma.com/index.php">Home</a>
       <span class="breadcrumb-separator">/</span>
       <span class="breadcrumb-active">Terms & Conditions</span>
     </div>

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $currentPage = 'about';
 $pageTitle = 'About Us - SVS & Co. - Leadership & Expertise';
 $pageDesc = 'Learn about CA Saurabh Vanya Sharma & Co. (SVS), our mission, vision, and meet our team of expert Chartered Accountants, CMAs, and Company Secretaries.';
@@ -9,23 +9,23 @@ $pageSchema = <<<JSON
   "@graph": [
     {
       "@type": "AboutPage",
-      "@id": "https://casaurabhvanyasharma.com/about.php",
-      "url": "https://casaurabhvanyasharma.com/about.php",
+      "@id": "https://www.casaurabhvanyasharma.com/about.php",
+      "url": "https://www.casaurabhvanyasharma.com/about.php",
       "name": "About SVS & Co. - Leadership and Heritage",
       "isPartOf": {
         "@type": "WebSite",
-        "@id": "https://casaurabhvanyasharma.com/#website",
-        "url": "https://casaurabhvanyasharma.com/",
+        "@id": "https://www.casaurabhvanyasharma.com/#website",
+        "url": "https://www.casaurabhvanyasharma.com/",
         "name": "CA Saurabh Vanya Sharma & Co."
       },
       "description": "Saurabh Vanya Sharma & Co. is a leading Chartered Accountancy firm in Delhi, providing audit, tax, and consulting services under the leadership of CA Saurabh Sharma."
     },
     {
       "@type": "Organization",
-      "@id": "https://casaurabhvanyasharma.com/#organization",
+      "@id": "https://www.casaurabhvanyasharma.com/#organization",
       "name": "CA Saurabh Vanya Sharma & Co.",
-      "url": "https://casaurabhvanyasharma.com/",
-      "logo": "https://casaurabhvanyasharma.com/assets/images/logo.png",
+      "url": "https://www.casaurabhvanyasharma.com/",
+      "logo": "https://www.casaurabhvanyasharma.com/assets/images/logo.png",
       "employee": [
         {
           "@type": "Person",
@@ -73,7 +73,7 @@ include 'includes/header.php';
       <h2>About Us</h2>
     </div>
     <div class="breadcrumb-list">
-      <a href="https://casaurabhvanyasharma.com/index.php">Home</a>
+      <a href="https://www.casaurabhvanyasharma.com/index.php">Home</a>
       <span class="breadcrumb-separator">/</span>
       <span class="breadcrumb-active">About Us</span>
     </div>
@@ -94,10 +94,10 @@ include 'includes/header.php';
         <span class="section-label">Our Heritage</span>
         <h3 class="section-title">Trusted Financial Partners. <br>Proven Business Advisors.</h3>
         <p>
-          At Saurabh Vanya Sharma &amp; Co (SVS), we stand at the intersection of experience, insight, and integrity. Founded by CA Saurabh Sharma, SVS is a professionally managed Chartered Accountancy firm with a strong track record of delivering high-quality <a href="https://casaurabhvanyasharma.com/audit-assurance.php">audit &amp; assurance</a>, <a href="https://casaurabhvanyasharma.com/taxation.php">tax</a>, and advisory services for over 25 years.
+          At Saurabh Vanya Sharma &amp; Co (SVS), we stand at the intersection of experience, insight, and integrity. Founded by CA Saurabh Sharma, SVS is a professionally managed Chartered Accountancy firm with a strong track record of delivering high-quality <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php">audit &amp; assurance</a>, <a href="https://www.casaurabhvanyasharma.com/taxation.php">tax</a>, and advisory services for over 25 years.
         </p>
         <p>
-          We're more than just accountants — we're strategic advisors dedicated to helping businesses navigate complexity, manage compliance, and unlock growth opportunities. Our team comprises seasoned Chartered Accountants, <a href="https://casaurabhvanyasharma.com/corporate-advisory.php">Company Secretaries</a>, CMAs, and legal professionals, each committed to delivering solutions that are technically sound, industry-specific, and results-driven. <a href="https://casaurabhvanyasharma.com/contact.php">Contact our team →</a>
+          We're more than just accountants — we're strategic advisors dedicated to helping businesses navigate complexity, manage compliance, and unlock growth opportunities. Our team comprises seasoned Chartered Accountants, <a href="https://www.casaurabhvanyasharma.com/corporate-advisory.php">Company Secretaries</a>, CMAs, and legal professionals, each committed to delivering solutions that are technically sound, industry-specific, and results-driven. <a href="https://www.casaurabhvanyasharma.com/contact.php">Contact our team →</a>
         </p>
       </div>
     </div>
@@ -152,10 +152,10 @@ include 'includes/header.php';
         </div>
 
         <p class="founder-bio">
-          CA Saurabh Sharma is a distinguished Chartered Accountant and the founding partner of Saurabh Vanya Sharma &amp; Co. (SVS). With over <strong>25 years of hands-on experience</strong> across <a href="https://casaurabhvanyasharma.com/audit-assurance.php">audit &amp; assurance</a>, <a href="https://casaurabhvanyasharma.com/taxation.php">taxation</a>, risk advisory, and management consulting, he has built the firm into a trusted name in the financial services landscape of Delhi-NCR and beyond.
+          CA Saurabh Sharma is a distinguished Chartered Accountant and the founding partner of Saurabh Vanya Sharma &amp; Co. (SVS). With over <strong>25 years of hands-on experience</strong> across <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php">audit &amp; assurance</a>, <a href="https://www.casaurabhvanyasharma.com/taxation.php">taxation</a>, risk advisory, and management consulting, he has built the firm into a trusted name in the financial services landscape of Delhi-NCR and beyond.
         </p>
         <p class="founder-bio">
-          Educated at Aligarh Muslim University and a Fellow Member of the <strong>Institute of Chartered Accountants of India (ICAI)</strong>, CA Saurabh has led complex engagements spanning management consulting, <a href="https://casaurabhvanyasharma.com/audit-assurance.php">assurance &amp; internal audit</a>, risk advisory, and <a href="https://casaurabhvanyasharma.com/international-tax.php">international tax</a>. His sharp legal acumen — backed by his LL.B qualification — gives him a rare edge in providing holistic, compliance-driven counsel to businesses across industries.
+          Educated at Aligarh Muslim University and a Fellow Member of the <strong>Institute of Chartered Accountants of India (ICAI)</strong>, CA Saurabh has led complex engagements spanning management consulting, <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php">assurance &amp; internal audit</a>, risk advisory, and <a href="https://www.casaurabhvanyasharma.com/international-tax.php">international tax</a>. His sharp legal acumen — backed by his LL.B qualification — gives him a rare edge in providing holistic, compliance-driven counsel to businesses across industries.
         </p>
         <p class="founder-bio">
           He is deeply committed to client-first advisory, combining technical depth with practical judgment to help businesses navigate regulatory complexity and unlock sustainable growth.
@@ -181,12 +181,12 @@ include 'includes/header.php';
         </div>
 
         <div class="founder-expertise-tags">
-          <a href="https://casaurabhvanyasharma.com/audit-assurance.php" class="expertise-tag">Audit &amp; Assurance</a>
-          <a href="https://casaurabhvanyasharma.com/audit-assurance.php" class="expertise-tag">Risk Advisory</a>
-          <a href="https://casaurabhvanyasharma.com/corporate-advisory.php" class="expertise-tag">Management Consulting</a>
-          <a href="https://casaurabhvanyasharma.com/international-tax.php" class="expertise-tag">International Taxation</a>
-          <a href="https://casaurabhvanyasharma.com/corporate-advisory.php" class="expertise-tag">Corporate Compliance</a>
-          <a href="https://casaurabhvanyasharma.com/taxation.php" class="expertise-tag">Personal Property Tax</a>
+          <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php" class="expertise-tag">Audit &amp; Assurance</a>
+          <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php" class="expertise-tag">Risk Advisory</a>
+          <a href="https://www.casaurabhvanyasharma.com/corporate-advisory.php" class="expertise-tag">Management Consulting</a>
+          <a href="https://www.casaurabhvanyasharma.com/international-tax.php" class="expertise-tag">International Taxation</a>
+          <a href="https://www.casaurabhvanyasharma.com/corporate-advisory.php" class="expertise-tag">Corporate Compliance</a>
+          <a href="https://www.casaurabhvanyasharma.com/taxation.php" class="expertise-tag">Personal Property Tax</a>
         </div>
       </div>
     </div>

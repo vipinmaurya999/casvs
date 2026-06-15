@@ -9,16 +9,16 @@ $pageSchema = <<<JSON
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://casaurabhvanyasharma.com/delhi-ncr-presence.php",
-      "url": "https://casaurabhvanyasharma.com/delhi-ncr-presence.php",
+      "@id": "https://www.casaurabhvanyasharma.com/delhi-ncr-presence.php",
+      "url": "https://www.casaurabhvanyasharma.com/delhi-ncr-presence.php",
       "name": "CA Firm in Delhi NCR - Regional Auditing & Taxation Services",
       "description": "Local presence page of SVS & Co., Chartered Accountants, providing statutory compliance support across Delhi, Noida, Gurgaon, and Faridabad."
     },
     {
       "@type": "AccountingService",
       "name": "CA Saurabh Vanya Sharma & Co.",
-      "url": "https://casaurabhvanyasharma.com/",
-      "logo": "https://casaurabhvanyasharma.com/assets/images/logo.png",
+      "url": "https://www.casaurabhvanyasharma.com/",
+      "logo": "https://www.casaurabhvanyasharma.com/assets/images/logo.png",
       "telephone": "+91-11-41643838",
       "email": "info@casvs.in",
       "address": {
@@ -66,7 +66,7 @@ include 'includes/header.php';
       <h2>Delhi NCR Regional Presence</h2>
     </div>
     <div class="breadcrumb-list">
-      <a href="https://casaurabhvanyasharma.com/index.php">Home</a>
+      <a href="https://www.casaurabhvanyasharma.com/index.php">Home</a>
       <span class="breadcrumb-separator">/</span>
       <span class="breadcrumb-active">Delhi NCR Presence</span>
     </div>
@@ -81,12 +81,12 @@ include 'includes/header.php';
       <aside class="service-sidebar">
         <h4 class="sidebar-title">Our Capabilities</h4>
         <div class="sidebar-links">
-          <a href="https://casaurabhvanyasharma.com/audit-assurance.php" class="sidebar-link">Audit & Assurance</a>
-          <a href="https://casaurabhvanyasharma.com/taxation.php" class="sidebar-link">Direct & Indirect Taxation</a>
-          <a href="https://casaurabhvanyasharma.com/corporate-advisory.php" class="sidebar-link">Business Consulting & Advisory</a>
-          <a href="https://casaurabhvanyasharma.com/international-tax.php" class="sidebar-link">International Tax & Structuring</a>
-          <a href="https://casaurabhvanyasharma.com/accounting-advisory.php" class="sidebar-link">Accounting & GAAP Advisory</a>
-          <a href="https://casaurabhvanyasharma.com/bpo-outsourcing.php" class="sidebar-link">Business Process Outsourcing</a>
+          <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php" class="sidebar-link">Audit & Assurance</a>
+          <a href="https://www.casaurabhvanyasharma.com/taxation.php" class="sidebar-link">Direct & Indirect Taxation</a>
+          <a href="https://www.casaurabhvanyasharma.com/corporate-advisory.php" class="sidebar-link">Business Consulting & Advisory</a>
+          <a href="https://www.casaurabhvanyasharma.com/international-tax.php" class="sidebar-link">International Tax & Structuring</a>
+          <a href="https://www.casaurabhvanyasharma.com/accounting-advisory.php" class="sidebar-link">Accounting & GAAP Advisory</a>
+          <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing.php" class="sidebar-link">Business Process Outsourcing</a>
         </div>
       </aside>
 
@@ -180,7 +180,7 @@ include 'includes/header.php';
             <h4>Operating Across Delhi NCR?</h4>
             <p>Connect with our senior partners to arrange a consultation at your convenience.</p>
           </div>
-          <a href="https://casaurabhvanyasharma.com/contact.php" class="btn btn-primary" style="background-color: var(--color-accent); border-radius: var(--border-radius-sm);">Contact Our Team</a>
+          <a href="https://www.casaurabhvanyasharma.com/contact.php" class="btn btn-primary" style="background-color: var(--color-accent); border-radius: var(--border-radius-sm);">Contact Our Team</a>
         </div>
       </div>
     </div>

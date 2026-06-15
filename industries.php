@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $currentPage = 'industries';
 $pageTitle = 'Industries We Serve - Specialized Accounting & Audit Sectors';
 $pageDesc = 'SVS & Co. provides statutory auditing, tax compliance, and advisory services across major industries: PSUs, banking, manufacturing, IT, and real estate.';
@@ -9,16 +9,16 @@ $pageSchema = <<<JSON
   "@graph": [
     {
       "@type": "WebPage",
-      "@id": "https://casaurabhvanyasharma.com/industries.php",
-      "url": "https://casaurabhvanyasharma.com/industries.php",
+      "@id": "https://www.casaurabhvanyasharma.com/industries.php",
+      "url": "https://www.casaurabhvanyasharma.com/industries.php",
       "name": "Industries We Serve - SVS & Co. Chartered Accountants",
       "description": "Sector-specific financial auditing, tax consulting, and business advisory services for corporate enterprise verticals in India."
     },
     {
       "@type": "AccountingService",
       "name": "CA Saurabh Vanya Sharma & Co.",
-      "url": "https://casaurabhvanyasharma.com/",
-      "logo": "https://casaurabhvanyasharma.com/assets/images/logo.png",
+      "url": "https://www.casaurabhvanyasharma.com/",
+      "logo": "https://www.casaurabhvanyasharma.com/assets/images/logo.png",
       "areaServed": "India",
       "knowsAbout": [
         "Banking & Financial Services",
@@ -44,7 +44,7 @@ include 'includes/header.php';
       <h2>Industries We Serve</h2>
     </div>
     <div class="breadcrumb-list">
-      <a href="https://casaurabhvanyasharma.com/index.php">Home</a>
+      <a href="https://www.casaurabhvanyasharma.com/index.php">Home</a>
       <span class="breadcrumb-separator">/</span>
       <span class="breadcrumb-active">Industries</span>
     </div>
@@ -59,12 +59,12 @@ include 'includes/header.php';
       <aside class="service-sidebar">
         <h4 class="sidebar-title">Our Capabilities</h4>
         <div class="sidebar-links">
-          <a href="https://casaurabhvanyasharma.com/audit-assurance.php" class="sidebar-link">Audit & Assurance</a>
-          <a href="https://casaurabhvanyasharma.com/taxation.php" class="sidebar-link">Direct & Indirect Taxation</a>
-          <a href="https://casaurabhvanyasharma.com/corporate-advisory.php" class="sidebar-link">Business Consulting & Advisory</a>
-          <a href="https://casaurabhvanyasharma.com/international-tax.php" class="sidebar-link">International Tax & Structuring</a>
-          <a href="https://casaurabhvanyasharma.com/accounting-advisory.php" class="sidebar-link">Accounting & GAAP Advisory</a>
-          <a href="https://casaurabhvanyasharma.com/bpo-outsourcing.php" class="sidebar-link">Business Process Outsourcing</a>
+          <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php" class="sidebar-link">Audit & Assurance</a>
+          <a href="https://www.casaurabhvanyasharma.com/taxation.php" class="sidebar-link">Direct & Indirect Taxation</a>
+          <a href="https://www.casaurabhvanyasharma.com/corporate-advisory.php" class="sidebar-link">Business Consulting & Advisory</a>
+          <a href="https://www.casaurabhvanyasharma.com/international-tax.php" class="sidebar-link">International Tax & Structuring</a>
+          <a href="https://www.casaurabhvanyasharma.com/accounting-advisory.php" class="sidebar-link">Accounting & GAAP Advisory</a>
+          <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing.php" class="sidebar-link">Business Process Outsourcing</a>
         </div>
       </aside>
 
@@ -87,7 +87,7 @@ include 'includes/header.php';
           <div style="border-left: 4px solid var(--color-primary); padding-left: 1.5rem;">
             <h4 style="margin: 0 0 0.4rem 0; color: var(--color-primary-dark); font-weight: 800;">Banking, Financial Services &amp; PSUs</h4>
             <p style="margin: 0; font-size: 0.98rem; color: var(--color-gray-500); line-height: 1.6;">
-              We provide <a href="https://casaurabhvanyasharma.com/audit-assurance.php">statutory bank branch audits, concurrent audits, and stock audits</a> under RBI guidelines. SVS is also empanelled with the C&amp;AG of India, conducting independent audits for State Public Sector Undertakings (PSUs) and autonomous government boards.
+              We provide <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php">statutory bank branch audits, concurrent audits, and stock audits</a> under RBI guidelines. SVS is also empanelled with the C&amp;AG of India, conducting independent audits for State Public Sector Undertakings (PSUs) and autonomous government boards.
             </p>
           </div>
 
@@ -103,7 +103,7 @@ include 'includes/header.php';
           <div style="border-left: 4px solid var(--color-primary); padding-left: 1.5rem;">
             <h4 style="margin: 0 0 0.4rem 0; color: var(--color-primary-dark); font-weight: 800;">IT, Consulting, SEZ &amp; Professional Services</h4>
             <p style="margin: 0; font-size: 0.98rem; color: var(--color-gray-500); line-height: 1.6;">
-              IT and service companies operate globally, requiring adherence to STPI / SEZ regulations, international tax treaties, and transfer pricing guidelines. We provide <a href="https://casaurabhvanyasharma.com/international-tax.php">transfer pricing audits (Form 3CEB) &amp; FEMA RBI compliance</a>, and <a href="https://casaurabhvanyasharma.com/bpo-outsourcing.php">monthly outsourced bookkeeping/payroll</a>.
+              IT and service companies operate globally, requiring adherence to STPI / SEZ regulations, international tax treaties, and transfer pricing guidelines. We provide <a href="https://www.casaurabhvanyasharma.com/international-tax.php">transfer pricing audits (Form 3CEB) &amp; FEMA RBI compliance</a>, and <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing.php">monthly outsourced bookkeeping/payroll</a>.
             </p>
           </div>
 
@@ -111,7 +111,7 @@ include 'includes/header.php';
           <div style="border-left: 4px solid var(--color-accent); padding-left: 1.5rem;">
             <h4 style="margin: 0 0 0.4rem 0; color: var(--color-primary-dark); font-weight: 800;">Real Estate, Infrastructure &amp; Hospitality</h4>
             <p style="margin: 0; font-size: 0.98rem; color: var(--color-gray-500); line-height: 1.6;">
-              Real estate and infrastructure projects face complex accounting standards and regulatory reviews under RERA. We provide project compliance reviews, <a href="https://casaurabhvanyasharma.com/taxation.php">tax planning for Joint Development Agreements (JDAs)</a>, and audit support for RERA compliance.
+              Real estate and infrastructure projects face complex accounting standards and regulatory reviews under RERA. We provide project compliance reviews, <a href="https://www.casaurabhvanyasharma.com/taxation.php">tax planning for Joint Development Agreements (JDAs)</a>, and audit support for RERA compliance.
             </p>
           </div>
 
@@ -154,7 +154,7 @@ include 'includes/header.php';
             <h4>Need Industry-Specific Auditing Support?</h4>
             <p>Consult with our sector specialists to plan your compliance strategy.</p>
           </div>
-          <a href="https://casaurabhvanyasharma.com/contact.php" class="btn btn-primary" style="background-color: var(--color-accent); border-radius: var(--border-radius-sm);">Contact Our Partners</a>
+          <a href="https://www.casaurabhvanyasharma.com/contact.php" class="btn btn-primary" style="background-color: var(--color-accent); border-radius: var(--border-radius-sm);">Contact Our Partners</a>
         </div>
       </div>
     </div>

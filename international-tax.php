@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $currentPage = 'international-tax';
 $currentCategory = 'services';
 $pageTitle = 'Transfer Pricing Audits, FEMA Compliances & International Tax Structuring';
@@ -15,7 +15,7 @@ $pageSchema = <<<JSON
       "provider": {
         "@type": "AccountingService",
         "name": "CA Saurabh Vanya Sharma & Co.",
-        "url": "https://casaurabhvanyasharma.com/"
+        "url": "https://www.casaurabhvanyasharma.com/"
       },
       "serviceType": "International Taxation and Exchange Advisory",
       "areaServed": "India"
@@ -63,7 +63,7 @@ include 'includes/header.php';
       <h2>International Tax & Structuring</h2>
     </div>
     <div class="breadcrumb-list">
-      <a href="https://casaurabhvanyasharma.com/index.php">Home</a>
+      <a href="https://www.casaurabhvanyasharma.com/index.php">Home</a>
       <span class="breadcrumb-separator">/</span>
       <span class="breadcrumb-active">International Tax</span>
     </div>
@@ -78,12 +78,12 @@ include 'includes/header.php';
       <aside class="service-sidebar">
         <h4 class="sidebar-title">Our Capabilities</h4>
         <div class="sidebar-links">
-          <a href="https://casaurabhvanyasharma.com/audit-assurance.php" class="sidebar-link">Audit & Assurance</a>
-          <a href="https://casaurabhvanyasharma.com/taxation.php" class="sidebar-link">Direct & Indirect Taxation</a>
-          <a href="https://casaurabhvanyasharma.com/corporate-advisory.php" class="sidebar-link">Business Consulting & Advisory</a>
-          <a href="https://casaurabhvanyasharma.com/international-tax.php" class="sidebar-link active">International Tax & Structuring</a>
-          <a href="https://casaurabhvanyasharma.com/accounting-advisory.php" class="sidebar-link">Accounting & GAAP Advisory</a>
-          <a href="https://casaurabhvanyasharma.com/bpo-outsourcing.php" class="sidebar-link">Business Process Outsourcing</a>
+          <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php" class="sidebar-link">Audit & Assurance</a>
+          <a href="https://www.casaurabhvanyasharma.com/taxation.php" class="sidebar-link">Direct & Indirect Taxation</a>
+          <a href="https://www.casaurabhvanyasharma.com/corporate-advisory.php" class="sidebar-link">Business Consulting & Advisory</a>
+          <a href="https://www.casaurabhvanyasharma.com/international-tax.php" class="sidebar-link active">International Tax & Structuring</a>
+          <a href="https://www.casaurabhvanyasharma.com/accounting-advisory.php" class="sidebar-link">Accounting & GAAP Advisory</a>
+          <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing.php" class="sidebar-link">Business Process Outsourcing</a>
         </div>
       </aside>
 
@@ -94,7 +94,7 @@ include 'includes/header.php';
           As businesses expand globally, managing cross-border transactions and mitigating international tax liabilities becomes critical. Under the Indian Income Tax Act (Sections 90 to 92F) and the Foreign Exchange Management Act (FEMA), global corporations and non-resident Indians (NRIs) face complex regulatory audits, reporting rules, and tax compliance requirements.
         </p>
         <p>
-          At Saurabh Vanya Sharma & Co. (SVS), we assist multinational corporations, foreign subsidiaries, and domestic exporters in optimizing their global tax footprint, managing <a href="https://casaurabhvanyasharma.com/audit-assurance.php">transfer pricing audits</a>, and remaining fully compliant with RBI and FEMA guidelines. For entity incorporation and joint venture structuring, see our <a href="https://casaurabhvanyasharma.com/corporate-advisory.php">Business Consulting & Advisory</a> services.
+          At Saurabh Vanya Sharma & Co. (SVS), we assist multinational corporations, foreign subsidiaries, and domestic exporters in optimizing their global tax footprint, managing <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php">transfer pricing audits</a>, and remaining fully compliant with RBI and FEMA guidelines. For entity incorporation and joint venture structuring, see our <a href="https://www.casaurabhvanyasharma.com/corporate-advisory.php">Business Consulting & Advisory</a> services.
         </p>
 
         <h4>Our International Tax & FEMA Services</h4>
@@ -135,7 +135,7 @@ include 'includes/header.php';
 
         <h4>Foreign Exchange & RBI Compliances</h4>
         <p>
-          Capital inflows and outflows in India are strictly regulated by the Reserve Bank of India (RBI) under the Foreign Exchange Management Act (FEMA). SVS offers complete support for corporate clients receiving Foreign Direct Investment (FDI) or making Overseas Direct Investments (ODI), including entity registration, filing mandatory disclosure returns on FIRMS portal, and ensuring regular transaction-based reporting to avoid penalties. For domestic <a href="https://casaurabhvanyasharma.com/taxation.php">direct & indirect tax</a> compliance, visit our Taxation page. We also provide <a href="https://casaurabhvanyasharma.com/accounting-advisory.php">accounting & GAAP advisory</a> to ensure your global books are consistent, and <a href="https://casaurabhvanyasharma.com/bpo-outsourcing.php">BPO services</a> for streamlined finance functions.
+          Capital inflows and outflows in India are strictly regulated by the Reserve Bank of India (RBI) under the Foreign Exchange Management Act (FEMA). SVS offers complete support for corporate clients receiving Foreign Direct Investment (FDI) or making Overseas Direct Investments (ODI), including entity registration, filing mandatory disclosure returns on FIRMS portal, and ensuring regular transaction-based reporting to avoid penalties. For domestic <a href="https://www.casaurabhvanyasharma.com/taxation.php">direct & indirect tax</a> compliance, visit our Taxation page. We also provide <a href="https://www.casaurabhvanyasharma.com/accounting-advisory.php">accounting & GAAP advisory</a> to ensure your global books are consistent, and <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing.php">BPO services</a> for streamlined finance functions.
         </p>
 
         <!-- FAQ Section -->
@@ -176,7 +176,7 @@ include 'includes/header.php';
             <h4>Planning a Cross-Border Venture?</h4>
             <p>Speak with our international tax specialists to structure inbound or outbound investments.</p>
           </div>
-          <a href="https://casaurabhvanyasharma.com/contact.php" class="btn btn-primary" style="background-color: var(--color-accent); border-radius: var(--border-radius-sm);">Contact Our Team</a>
+          <a href="https://www.casaurabhvanyasharma.com/contact.php" class="btn btn-primary" style="background-color: var(--color-accent); border-radius: var(--border-radius-sm);">Contact Our Team</a>
         </div>
       </div>
     </div>

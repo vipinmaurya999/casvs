@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $currentPage = 'audit-assurance';
 $currentCategory = 'services';
 $pageTitle = 'Statutory Audit, Tax Audit & Internal Financial Controls (IFC) Services';
@@ -15,7 +15,7 @@ $pageSchema = <<<JSON
       "provider": {
         "@type": "AccountingService",
         "name": "CA Saurabh Vanya Sharma & Co.",
-        "url": "https://casaurabhvanyasharma.com/"
+        "url": "https://www.casaurabhvanyasharma.com/"
       },
       "serviceType": "Auditing and Financial Assurance",
       "areaServed": "India"
@@ -63,7 +63,7 @@ include 'includes/header.php';
       <h2>Audit & Assurance</h2>
     </div>
     <div class="breadcrumb-list">
-      <a href="https://casaurabhvanyasharma.com/index.php">Home</a>
+      <a href="https://www.casaurabhvanyasharma.com/index.php">Home</a>
       <span class="breadcrumb-separator">/</span>
       <span class="breadcrumb-active">Audit & Assurance</span>
     </div>
@@ -78,12 +78,12 @@ include 'includes/header.php';
       <aside class="service-sidebar">
         <h4 class="sidebar-title">Our Capabilities</h4>
         <div class="sidebar-links">
-          <a href="https://casaurabhvanyasharma.com/audit-assurance.php" class="sidebar-link active">Audit & Assurance</a>
-          <a href="https://casaurabhvanyasharma.com/taxation.php" class="sidebar-link">Direct & Indirect Taxation</a>
-          <a href="https://casaurabhvanyasharma.com/corporate-advisory.php" class="sidebar-link">Business Consulting & Advisory</a>
-          <a href="https://casaurabhvanyasharma.com/international-tax.php" class="sidebar-link">International Tax & Structuring</a>
-          <a href="https://casaurabhvanyasharma.com/accounting-advisory.php" class="sidebar-link">Accounting & GAAP Advisory</a>
-          <a href="https://casaurabhvanyasharma.com/bpo-outsourcing.php" class="sidebar-link">Business Process Outsourcing</a>
+          <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php" class="sidebar-link active">Audit & Assurance</a>
+          <a href="https://www.casaurabhvanyasharma.com/taxation.php" class="sidebar-link">Direct & Indirect Taxation</a>
+          <a href="https://www.casaurabhvanyasharma.com/corporate-advisory.php" class="sidebar-link">Business Consulting & Advisory</a>
+          <a href="https://www.casaurabhvanyasharma.com/international-tax.php" class="sidebar-link">International Tax & Structuring</a>
+          <a href="https://www.casaurabhvanyasharma.com/accounting-advisory.php" class="sidebar-link">Accounting & GAAP Advisory</a>
+          <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing.php" class="sidebar-link">Business Process Outsourcing</a>
         </div>
       </aside>
 
@@ -91,7 +91,7 @@ include 'includes/header.php';
       <div class="service-main-content">
         <h3>Building Financial Trust and Operational Integrity</h3>
         <p>
-          In today's complex regulatory environment, independent audit and assurance services are essential for building trust among shareholders, financial institutions, and regulatory authorities. At Saurabh Vanya Sharma &amp; Co. (SVS), we view the audit process not as a mere compliance burden, but as a strategic tool to evaluate risk, identify system vulnerabilities, and strengthen <a href="https://casaurabhvanyasharma.com/accounting-advisory.php">internal financial controls</a>.
+          In today's complex regulatory environment, independent audit and assurance services are essential for building trust among shareholders, financial institutions, and regulatory authorities. At Saurabh Vanya Sharma &amp; Co. (SVS), we view the audit process not as a mere compliance burden, but as a strategic tool to evaluate risk, identify system vulnerabilities, and strengthen <a href="https://www.casaurabhvanyasharma.com/accounting-advisory.php">internal financial controls</a>.
         </p>
         <p>
           Our audit methodology is risk-based and strictly adheres to the Standards on Auditing (SAs) issued by the Institute of Chartered Accountants of India (ICAI). By combining deep technical expertise with industry insights, we deliver transparent reports that accurately present your organization's financial position. Our firm's credentials include empanelments with the C&amp;AG and RBI.
@@ -135,7 +135,7 @@ include 'includes/header.php';
 
         <h4>Evaluating Internal Financial Controls (IFC)</h4>
         <p>
-          Under Section 134(5)(e) of the Companies Act 2013, directors and statutory auditors must state the adequacy and operational effectiveness of internal financial controls. SVS assists enterprises in documenting, testing, and rectifying control frameworks, ensuring robust protection against reporting errors, asset losses, or compliance slip-ups. Pair this with our <a href="https://casaurabhvanyasharma.com/accounting-advisory.php">Accounting &amp; GAAP Advisory</a> to build audit-proof SOPs and policies, or delegate your routine compliance to our <a href="https://casaurabhvanyasharma.com/bpo-outsourcing.php">BPO Outsourcing team</a>.
+          Under Section 134(5)(e) of the Companies Act 2013, directors and statutory auditors must state the adequacy and operational effectiveness of internal financial controls. SVS assists enterprises in documenting, testing, and rectifying control frameworks, ensuring robust protection against reporting errors, asset losses, or compliance slip-ups. Pair this with our <a href="https://www.casaurabhvanyasharma.com/accounting-advisory.php">Accounting &amp; GAAP Advisory</a> to build audit-proof SOPs and policies, or delegate your routine compliance to our <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing.php">BPO Outsourcing team</a>.
         </p>
 
         <!-- FAQ Section -->
@@ -176,7 +176,7 @@ include 'includes/header.php';
             <h4>Need Audit or Assurance Support?</h4>
             <p>Speak with our senior audit partners to plan your statutory compliance calendar.</p>
           </div>
-          <a href="https://casaurabhvanyasharma.com/contact.php" class="btn btn-primary" style="background-color: var(--color-accent); border-radius: var(--border-radius-sm);">Contact Our Team</a>
+          <a href="https://www.casaurabhvanyasharma.com/contact.php" class="btn btn-primary" style="background-color: var(--color-accent); border-radius: var(--border-radius-sm);">Contact Our Team</a>
         </div>
       </div>
     </div>

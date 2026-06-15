@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $currentPage = 'taxation';
 $currentCategory = 'services';
 $pageTitle = 'Direct & Indirect Taxation, GST Consulting & Tax Litigation Representation';
@@ -15,7 +15,7 @@ $pageSchema = <<<JSON
       "provider": {
         "@type": "AccountingService",
         "name": "CA Saurabh Vanya Sharma & Co.",
-        "url": "https://casaurabhvanyasharma.com/"
+        "url": "https://www.casaurabhvanyasharma.com/"
       },
       "serviceType": "Taxation Services",
       "areaServed": "India"
@@ -63,7 +63,7 @@ include 'includes/header.php';
       <h2>Direct & Indirect Taxation</h2>
     </div>
     <div class="breadcrumb-list">
-      <a href="https://casaurabhvanyasharma.com/index.php">Home</a>
+      <a href="https://www.casaurabhvanyasharma.com/index.php">Home</a>
       <span class="breadcrumb-separator">/</span>
       <span class="breadcrumb-active">Taxation</span>
     </div>
@@ -78,12 +78,12 @@ include 'includes/header.php';
       <aside class="service-sidebar">
         <h4 class="sidebar-title">Our Capabilities</h4>
         <div class="sidebar-links">
-          <a href="https://casaurabhvanyasharma.com/audit-assurance.php" class="sidebar-link">Audit & Assurance</a>
-          <a href="https://casaurabhvanyasharma.com/taxation.php" class="sidebar-link active">Direct & Indirect Taxation</a>
-          <a href="https://casaurabhvanyasharma.com/corporate-advisory.php" class="sidebar-link">Business Consulting & Advisory</a>
-          <a href="https://casaurabhvanyasharma.com/international-tax.php" class="sidebar-link">International Tax & Structuring</a>
-          <a href="https://casaurabhvanyasharma.com/accounting-advisory.php" class="sidebar-link">Accounting & GAAP Advisory</a>
-          <a href="https://casaurabhvanyasharma.com/bpo-outsourcing.php" class="sidebar-link">Business Process Outsourcing</a>
+          <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php" class="sidebar-link">Audit & Assurance</a>
+          <a href="https://www.casaurabhvanyasharma.com/taxation.php" class="sidebar-link active">Direct & Indirect Taxation</a>
+          <a href="https://www.casaurabhvanyasharma.com/corporate-advisory.php" class="sidebar-link">Business Consulting & Advisory</a>
+          <a href="https://www.casaurabhvanyasharma.com/international-tax.php" class="sidebar-link">International Tax & Structuring</a>
+          <a href="https://www.casaurabhvanyasharma.com/accounting-advisory.php" class="sidebar-link">Accounting & GAAP Advisory</a>
+          <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing.php" class="sidebar-link">Business Process Outsourcing</a>
         </div>
       </aside>
 
@@ -94,7 +94,7 @@ include 'includes/header.php';
           Navigating the ever-evolving landscape of direct and indirect taxes in India requires deep technical expertise, constant vigilance, and proactive planning. At Saurabh Vanya Sharma & Co. (SVS), we help corporate clients and individuals optimize their tax structures, manage compliance cycles, and resolve disputes efficiently.
         </p>
         <p>
-          We provide clear, practical tax advice based on a detailed analysis of your operational model and the relevant tax statutes. Our objective is to ensure you meet all regulatory timelines while utilizing statutory incentives to minimize your overall tax burden. For businesses with cross-border operations, see our <a href="https://casaurabhvanyasharma.com/international-tax.php">International Tax & Structuring</a> services.
+          We provide clear, practical tax advice based on a detailed analysis of your operational model and the relevant tax statutes. Our objective is to ensure you meet all regulatory timelines while utilizing statutory incentives to minimize your overall tax burden. For businesses with cross-border operations, see our <a href="https://www.casaurabhvanyasharma.com/international-tax.php">International Tax & Structuring</a> services.
         </p>
 
         <h4>Our Taxation & Litigation Capabilities</h4>
@@ -135,7 +135,7 @@ include 'includes/header.php';
 
         <h4>Tax Dispute Resolution Services</h4>
         <p>
-          Receiving a notice from the tax department can be challenging for any business. SVS offers robust representation services, assisting in tax audits initiated by the department, preparing detailed factual and legal submissions, and representing clients before the Commissioner of Income Tax (Appeals) and the Income Tax Appellate Tribunal (ITAT). Our senior tax partners bring decades of negotiation and litigation experience to protect client interests. For routine monthly GST and TDS filings, consider our <a href="https://casaurabhvanyasharma.com/bpo-outsourcing.php">BPO &amp; Outsourcing services</a>. For corporate restructuring tied to tax transactions, see <a href="https://casaurabhvanyasharma.com/corporate-advisory.php">Business Consulting &amp; Advisory</a>.
+          Receiving a notice from the tax department can be challenging for any business. SVS offers robust representation services, assisting in tax audits initiated by the department, preparing detailed factual and legal submissions, and representing clients before the Commissioner of Income Tax (Appeals) and the Income Tax Appellate Tribunal (ITAT). Our senior tax partners bring decades of negotiation and litigation experience to protect client interests. For routine monthly GST and TDS filings, consider our <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing.php">BPO &amp; Outsourcing services</a>. For corporate restructuring tied to tax transactions, see <a href="https://www.casaurabhvanyasharma.com/corporate-advisory.php">Business Consulting &amp; Advisory</a>.
         </p>
 
         <!-- FAQ Section -->
@@ -176,7 +176,7 @@ include 'includes/header.php';
             <h4>Optimize Your Corporate Tax Position</h4>
             <p>Consult with our tax experts to identify legal tax efficiencies and secure compliance.</p>
           </div>
-          <a href="https://casaurabhvanyasharma.com/contact.php" class="btn btn-primary" style="background-color: var(--color-accent); border-radius: var(--border-radius-sm);">Contact Our Team</a>
+          <a href="https://www.casaurabhvanyasharma.com/contact.php" class="btn btn-primary" style="background-color: var(--color-accent); border-radius: var(--border-radius-sm);">Contact Our Team</a>
         </div>
       </div>
     </div>

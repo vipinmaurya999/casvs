@@ -9,16 +9,16 @@ $pageSchema = <<<JSON
   "@graph": [
     {
       "@type": "ContactPage",
-      "@id": "https://casaurabhvanyasharma.com/contact.php",
-      "url": "https://casaurabhvanyasharma.com/contact.php",
+      "@id": "https://www.casaurabhvanyasharma.com/contact.php",
+      "url": "https://www.casaurabhvanyasharma.com/contact.php",
       "name": "Contact SVS & Co. - Tax, Audit & Advisory Services",
       "description": "Reach out to CA Saurabh Vanya Sharma & Co. in Bhikaji Cama Place, Delhi. Submit your audit, GST, or corporate consulting queries."
     },
     {
       "@type": "AccountingService",
       "name": "CA Saurabh Vanya Sharma & Co.",
-      "url": "https://casaurabhvanyasharma.com/",
-      "logo": "https://casaurabhvanyasharma.com/assets/images/logo.png",
+      "url": "https://www.casaurabhvanyasharma.com/",
+      "logo": "https://www.casaurabhvanyasharma.com/assets/images/logo.png",
       "telephone": "+91-11-41643838",
       "email": "info@casvs.in",
       "address": {
@@ -56,7 +56,7 @@ include 'includes/header.php';
       <h2>Contact Us</h2>
     </div>
     <div class="breadcrumb-list">
-      <a href="https://casaurabhvanyasharma.com/index.php">Home</a>
+      <a href="https://www.casaurabhvanyasharma.com/index.php">Home</a>
       <span class="breadcrumb-separator">/</span>
       <span class="breadcrumb-active">Contact Us</span>
     </div>

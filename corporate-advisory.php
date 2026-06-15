@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $currentPage = 'corporate-advisory';
 $currentCategory = 'services';
 $pageTitle = 'Business Consulting, Corporate Advisory & MCA Secretarial Compliance';
@@ -15,7 +15,7 @@ $pageSchema = <<<JSON
       "provider": {
         "@type": "AccountingService",
         "name": "CA Saurabh Vanya Sharma & Co.",
-        "url": "https://casaurabhvanyasharma.com/"
+        "url": "https://www.casaurabhvanyasharma.com/"
       },
       "serviceType": "Business Consulting and Corporate Advisory",
       "areaServed": "India"
@@ -63,7 +63,7 @@ include 'includes/header.php';
       <h2>Business Consulting & Advisory</h2>
     </div>
     <div class="breadcrumb-list">
-      <a href="https://casaurabhvanyasharma.com/index.php">Home</a>
+      <a href="https://www.casaurabhvanyasharma.com/index.php">Home</a>
       <span class="breadcrumb-separator">/</span>
       <span class="breadcrumb-active">Business Consulting</span>
     </div>
@@ -78,12 +78,12 @@ include 'includes/header.php';
       <aside class="service-sidebar">
         <h4 class="sidebar-title">Our Capabilities</h4>
         <div class="sidebar-links">
-          <a href="https://casaurabhvanyasharma.com/audit-assurance.php" class="sidebar-link">Audit & Assurance</a>
-          <a href="https://casaurabhvanyasharma.com/taxation.php" class="sidebar-link">Direct & Indirect Taxation</a>
-          <a href="https://casaurabhvanyasharma.com/corporate-advisory.php" class="sidebar-link active">Business Consulting & Advisory</a>
-          <a href="https://casaurabhvanyasharma.com/international-tax.php" class="sidebar-link">International Tax & Structuring</a>
-          <a href="https://casaurabhvanyasharma.com/accounting-advisory.php" class="sidebar-link">Accounting & GAAP Advisory</a>
-          <a href="https://casaurabhvanyasharma.com/bpo-outsourcing.php" class="sidebar-link">Business Process Outsourcing</a>
+          <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php" class="sidebar-link">Audit & Assurance</a>
+          <a href="https://www.casaurabhvanyasharma.com/taxation.php" class="sidebar-link">Direct & Indirect Taxation</a>
+          <a href="https://www.casaurabhvanyasharma.com/corporate-advisory.php" class="sidebar-link active">Business Consulting & Advisory</a>
+          <a href="https://www.casaurabhvanyasharma.com/international-tax.php" class="sidebar-link">International Tax & Structuring</a>
+          <a href="https://www.casaurabhvanyasharma.com/accounting-advisory.php" class="sidebar-link">Accounting & GAAP Advisory</a>
+          <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing.php" class="sidebar-link">Business Process Outsourcing</a>
         </div>
       </aside>
 
@@ -94,7 +94,7 @@ include 'includes/header.php';
           Establishing, running, and scaling a business in India requires adherence to multiple legal frameworks, overseen by the Ministry of Corporate Affairs (MCA), SEBI, and state-level registries. At Saurabh Vanya Sharma & Co. (SVS), we guide companies throughout their business life cycle—from initial entity selection and incorporation to secretarial filings, mergers, acquisitions, and asset restructuring.
         </p>
         <p>
-          Our team combines financial experts, legal advisors, and <a href="https://casaurabhvanyasharma.com/about.php#leadership-section">Company Secretaries</a> to deliver integrated solutions. We ensure that your corporate actions are legally compliant, <a href="https://casaurabhvanyasharma.com/taxation.php">tax-efficient</a>, and aligned with your long-term commercial goals.
+          Our team combines financial experts, legal advisors, and <a href="https://www.casaurabhvanyasharma.com/about.php#leadership-section">Company Secretaries</a> to deliver integrated solutions. We ensure that your corporate actions are legally compliant, <a href="https://www.casaurabhvanyasharma.com/taxation.php">tax-efficient</a>, and aligned with your long-term commercial goals.
         </p>
 
         <h4>Our Business Consulting & Corporate Advisory Services</h4>
@@ -135,7 +135,7 @@ include 'includes/header.php';
 
         <h4>Comprehensive Financial and Legal Due Diligence</h4>
         <p>
-          Whether acquiring a business, entering a joint venture, or securing equity funding, understanding the financial and legal health of the counterparty is critical. SVS provides independent <a href="https://casaurabhvanyasharma.com/audit-assurance.php">financial and tax due diligence</a> reviews, uncovering hidden liabilities, reviewing regulatory compliance histories, validating asset valuations, and identifying transaction risks. This review protects your corporate investments from unexpected setbacks.
+          Whether acquiring a business, entering a joint venture, or securing equity funding, understanding the financial and legal health of the counterparty is critical. SVS provides independent <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php">financial and tax due diligence</a> reviews, uncovering hidden liabilities, reviewing regulatory compliance histories, validating asset valuations, and identifying transaction risks. This review protects your corporate investments from unexpected setbacks.
         </p>
 
         <!-- FAQ Section -->
@@ -176,7 +176,7 @@ include 'includes/header.php';
             <h4>Planning a Corporate Transaction or Setup?</h4>
             <p>Speak with our corporate advisors to structure your business incorporation or transition.</p>
           </div>
-          <a href="https://casaurabhvanyasharma.com/contact.php" class="btn btn-primary" style="background-color: var(--color-accent); border-radius: var(--border-radius-sm);">Contact Our Team</a>
+          <a href="https://www.casaurabhvanyasharma.com/contact.php" class="btn btn-primary" style="background-color: var(--color-accent); border-radius: var(--border-radius-sm);">Contact Our Team</a>
         </div>
       </div>
     </div>
