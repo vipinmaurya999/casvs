@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $currentPage = 'contact';
 $pageTitle = 'Contact Us - Get in Touch with SVS & Co.';
 $pageDesc = 'Get in touch with Saurabh Vanya Sharma & Co. (SVS) for auditing, direct and indirect taxation, corporate advisory, and compliance services in Delhi.';
@@ -191,6 +191,22 @@ include 'includes/header.php';
           <button type="submit" class="btn btn-primary" id="btnSubmitForm" style="width: 100%; border-radius: var(--border-radius-sm);">Submit</button>
         </div>
       </form>
+    </div>
+  </div>
+</section>
+
+<!-- Google Maps Section -->
+<section class="section map-section">
+  <div class="container">
+    <div class="map-container" id="officeMap">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.728!2d77.18600!3d28.56830!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d3c0a3aaaab%3A0x1a6c7b9f4e2d1234!2sAnsal+Chamber+1%2C+Bhikaji+Cama+Place%2C+New+Delhi%2C+Delhi+110066!5e0!3m2!1sen!2sin!4v1700000000000"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="SVS &amp; Co. Office — Bhikaji Cama Place, New Delhi"
+        aria-label="Google Map showing SVS office location at Bhikaji Cama Place, New Delhi">
+      </iframe>
     </div>
   </div>
 </section>

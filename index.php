@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $currentPage = 'home';
 $pageTitle = 'Financial Clarity, Strategic Growth & Trusted Partnership';
 $pageDesc = 'Saurabh Vanya Sharma & Co. (SVS) is a Chartered Accountancy firm delivering premium audit, tax, consulting, and advisory services for 25+ years.';
@@ -77,6 +77,10 @@ include 'includes/header.php';
       <p class="hero-desc">
         A professionally managed Chartered Accountancy firm delivering high-quality, customized solutions in audit, taxation, business advisory, and corporate compliance for over 25 years.
       </p>
+      <div class="hero-actions">
+        <a href="https://www.casaurabhvanyasharma.com/contact" class="btn btn-primary" id="heroCtaConsult">Request a Consultation</a>
+        <a href="#services-section" class="btn btn-secondary" id="heroCtaServices">Explore Services</a>
+      </div>
     </div>
     
     <!-- Hero Right Image Column -->
@@ -85,6 +89,30 @@ include 'includes/header.php';
     </div>
   </div>
 </section>
+
+<!-- Stats Counter Strip -->
+<div class="stats-strip" id="statsStrip">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item" id="stat1">
+        <div class="stat-number"><span class="counter" data-target="25">0</span><span class="stat-suffix">+</span></div>
+        <div class="stat-label">Years of Excellence</div>
+      </div>
+      <div class="stat-item" id="stat2">
+        <div class="stat-number"><span class="counter" data-target="12">0</span><span class="stat-suffix">+</span></div>
+        <div class="stat-label">Industries Served</div>
+      </div>
+      <div class="stat-item" id="stat3">
+        <div class="stat-number"><span class="counter" data-target="4">0</span><span class="stat-suffix"></span></div>
+        <div class="stat-label">Cities with Presence</div>
+      </div>
+      <div class="stat-item" id="stat4">
+        <div class="stat-number"><span class="counter" data-target="20">0</span><span class="stat-suffix">+</span></div>
+        <div class="stat-label">Expert Professionals</div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Empowering Businesses Section -->
 <section class="section section-bg-light">
@@ -345,6 +373,60 @@ include 'includes/header.php';
         <p>
           By applying rigorous regulatory compliance checks and risk audits, we shield your corporate enterprise from liabilities.
         </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Client Testimonials Section -->
+<section class="section testimonials-section" id="testimonials-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-label">Client Stories</span>
+      <h3 class="section-title">Trusted by Businesses Across India</h3>
+      <p class="section-desc">
+        We measure our success by the confidence our clients place in us — year after year.
+      </p>
+    </div>
+
+    <div class="testimonials-grid">
+      <!-- Testimonial 1 -->
+      <div class="testimonial-card" id="testimonial1">
+        <div class="testimonial-quote-icon">&ldquo;</div>
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">
+          SVS handled our statutory audit with exceptional diligence. Their deep knowledge of IND-AS standards and regulatory requirements gave our board full confidence in our annual financial statements.
+        </p>
+        <div class="testimonial-author">
+          <span class="testimonial-name">Rajiv Mehta</span>
+          <span class="testimonial-role">CFO, Mid-size Manufacturing Company, Delhi</span>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="testimonial-card" id="testimonial2">
+        <div class="testimonial-quote-icon">&ldquo;</div>
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">
+          The team at SVS &amp; Co. managed our GST compliance and transfer pricing documentation seamlessly. Their proactive approach saved us significant tax exposure on our cross-border transactions.
+        </p>
+        <div class="testimonial-author">
+          <span class="testimonial-name">Priya Nair</span>
+          <span class="testimonial-role">Director — Finance, IT Services Company, Noida</span>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="testimonial-card" id="testimonial3">
+        <div class="testimonial-quote-icon">&ldquo;</div>
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">
+          As a PSU, we require auditors with impeccable ethics and regulatory expertise. SVS &amp; Co. has been our trusted audit partner for several years. Their reporting is always thorough, timely, and without compromise.
+        </p>
+        <div class="testimonial-author">
+          <span class="testimonial-name">A.K. Sharma</span>
+          <span class="testimonial-role">General Manager — Accounts, Public Sector Undertaking</span>
+        </div>
       </div>
     </div>
   </div>

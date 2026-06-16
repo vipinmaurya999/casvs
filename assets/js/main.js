@@ -190,4 +190,40 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
+  // --- Stats Counter Animation (fires once on scroll into view) ---
+  const counters = document.querySelectorAll('.counter');
+  if (counters.length > 0 && 'IntersectionObserver' in window) {
+    const animateCounter = (el) => {
+      const target = parseInt(el.getAttribute('data-target'), 10);
+      const duration = 1600;
+      const step = target / (duration / 16);
+      let current = 0;
+      const timer = setInterval(() => {
+        current += step;
+        if (current >= target) {
+          el.textContent = target;
+          clearInterval(timer);
+        } else {
+          el.textContent = Math.floor(current);
+        }
+      }, 16);
+    };
+
+    const statsObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.querySelectorAll('.counter').forEach(animateCounter);
+          entry.target.querySelectorAll('.stat-item').forEach((item, i) => {
+            item.style.animationDelay = `${i * 0.12}s`;
+            item.classList.add('animated');
+          });
+          statsObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.3 });
+
+    const statsStrip = document.getElementById('statsStrip');
+    if (statsStrip) statsObserver.observe(statsStrip);
+  }
 });
