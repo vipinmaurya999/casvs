@@ -180,7 +180,10 @@ include 'includes/header.php';
             <span class="recaptcha-label">I'm not a robot</span>
           </div>
           <div class="recaptcha-brand">
-            <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='24' height='24' loading="lazy"><path fill='%234285f4' d='M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z'/></svg>" alt="reCAPTCHA logo">
+            <svg class="recaptcha-logo-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" aria-hidden="true" style="display: block; max-width: 100%;">
+              <path fill="#4285F4" d="M12 4c-4.41 0-8 3.59-8 8s3.59 8 8 8c3.13 0 5.84-1.8 7.15-4.43l-1.8-1.04C16.48 16.4 14.41 18 12 18c-3.31 0-6-2.69-6-6s2.69-6 6-6c2.41 0 4.48 1.6 5.35 3.47l1.8-1.04C17.84 5.8 15.13 4 12 4z"/>
+              <path fill="#4285F4" d="M19 12h-4l5-5 5 5h-4v4h-2v-4z"/>
+            </svg>
             <p>reCAPTCHA</p>
             <p style="font-size: 0.45rem; line-height: 1;"><a href="https://www.google.com/intl/en/policies/privacy/" target="_blank" rel="noreferrer" style="color: #9b9b9b;">Privacy</a> - <a href="https://www.google.com/intl/en/policies/terms/" target="_blank" rel="noreferrer" style="color: #9b9b9b;">Terms</a></p>
           </div>
@@ -200,7 +203,10 @@ include 'includes/header.php';
   <div class="container">
     <div class="map-container" id="officeMap">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.728!2d77.18600!3d28.56830!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d3c0a3aaaab%3A0x1a6c7b9f4e2d1234!2sAnsal+Chamber+1%2C+Bhikaji+Cama+Place%2C+New+Delhi%2C+Delhi+110066!5e0!3m2!1sen!2sin!4v1700000000000"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.020127847987!2d77.18778429999999!3d28.5691583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1d841e293e33%3A0xbbed509cd476ce26!2sSaurabh%20Vanya%20Sharma%20%26%20Co.!5e0!3m2!1sen!2sin!4v1781601932055!5m2!1sen!2sin"
+        width="600"
+        height="450"
+        style="border:0;"
         allowfullscreen=""
         loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"

@@ -33,3 +33,5 @@ ENV/
 # Local credentials
 .env
 
+# Local development files
+router.php
