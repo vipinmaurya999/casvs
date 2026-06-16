@@ -36,7 +36,7 @@ include 'includes/header.php';
          style="display: inline-flex; align-items: center; gap: 0.5rem; background: var(--color-primary); color: #fff; padding: 0.85rem 1.8rem; border-radius: 6px; font-weight: 700; font-size: 0.95rem; text-decoration: none; transition: background 0.2s;">
         ← Back to Homepage
       </a>
-      <a href="https://www.casaurabhvanyasharma.com/contact.php"
+      <a href="https://www.casaurabhvanyasharma.com/contact"
          style="display: inline-flex; align-items: center; gap: 0.5rem; background: transparent; color: var(--color-primary); border: 2px solid var(--color-primary); padding: 0.85rem 1.8rem; border-radius: 6px; font-weight: 700; font-size: 0.95rem; text-decoration: none; transition: all 0.2s;">
         Contact Us
       </a>
@@ -47,11 +47,11 @@ include 'includes/header.php';
       Our Services
     </p>
     <div style="display: flex; flex-wrap: wrap; gap: 0.6rem; justify-content: center;">
-      <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php"     style="font-size: 0.85rem; color: var(--color-primary); border: 1px solid var(--color-primary); border-radius: 20px; padding: 0.35rem 0.9rem; text-decoration: none;">Audit &amp; Assurance</a>
-      <a href="https://www.casaurabhvanyasharma.com/taxation.php"            style="font-size: 0.85rem; color: var(--color-primary); border: 1px solid var(--color-primary); border-radius: 20px; padding: 0.35rem 0.9rem; text-decoration: none;">Taxation</a>
-      <a href="https://www.casaurabhvanyasharma.com/corporate-advisory.php"  style="font-size: 0.85rem; color: var(--color-primary); border: 1px solid var(--color-primary); border-radius: 20px; padding: 0.35rem 0.9rem; text-decoration: none;">Corporate Advisory</a>
-      <a href="https://www.casaurabhvanyasharma.com/international-tax.php"   style="font-size: 0.85rem; color: var(--color-primary); border: 1px solid var(--color-primary); border-radius: 20px; padding: 0.35rem 0.9rem; text-decoration: none;">International Tax</a>
-      <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing.php"     style="font-size: 0.85rem; color: var(--color-primary); border: 1px solid var(--color-primary); border-radius: 20px; padding: 0.35rem 0.9rem; text-decoration: none;">BPO &amp; Outsourcing</a>
+      <a href="https://www.casaurabhvanyasharma.com/audit-assurance"     style="font-size: 0.85rem; color: var(--color-primary); border: 1px solid var(--color-primary); border-radius: 20px; padding: 0.35rem 0.9rem; text-decoration: none;">Audit &amp; Assurance</a>
+      <a href="https://www.casaurabhvanyasharma.com/taxation"            style="font-size: 0.85rem; color: var(--color-primary); border: 1px solid var(--color-primary); border-radius: 20px; padding: 0.35rem 0.9rem; text-decoration: none;">Taxation</a>
+      <a href="https://www.casaurabhvanyasharma.com/corporate-advisory"  style="font-size: 0.85rem; color: var(--color-primary); border: 1px solid var(--color-primary); border-radius: 20px; padding: 0.35rem 0.9rem; text-decoration: none;">Corporate Advisory</a>
+      <a href="https://www.casaurabhvanyasharma.com/international-tax"   style="font-size: 0.85rem; color: var(--color-primary); border: 1px solid var(--color-primary); border-radius: 20px; padding: 0.35rem 0.9rem; text-decoration: none;">International Tax</a>
+      <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing"     style="font-size: 0.85rem; color: var(--color-primary); border: 1px solid var(--color-primary); border-radius: 20px; padding: 0.35rem 0.9rem; text-decoration: none;">BPO &amp; Outsourcing</a>
     </div>
 
   </div>

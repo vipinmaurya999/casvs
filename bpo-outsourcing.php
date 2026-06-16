@@ -63,7 +63,7 @@ include 'includes/header.php';
       <h2>Business Process Outsourcing</h2>
     </div>
     <div class="breadcrumb-list">
-      <a href="https://www.casaurabhvanyasharma.com/index.php">Home</a>
+      <a href="https://www.casaurabhvanyasharma.com/index">Home</a>
       <span class="breadcrumb-separator">/</span>
       <span class="breadcrumb-active">Outsourcing</span>
     </div>
@@ -78,12 +78,12 @@ include 'includes/header.php';
       <aside class="service-sidebar">
         <h4 class="sidebar-title">Our Capabilities</h4>
         <div class="sidebar-links">
-          <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php" class="sidebar-link">Audit & Assurance</a>
-          <a href="https://www.casaurabhvanyasharma.com/taxation.php" class="sidebar-link">Direct & Indirect Taxation</a>
-          <a href="https://www.casaurabhvanyasharma.com/corporate-advisory.php" class="sidebar-link">Business Consulting & Advisory</a>
-          <a href="https://www.casaurabhvanyasharma.com/international-tax.php" class="sidebar-link">International Tax & Structuring</a>
-          <a href="https://www.casaurabhvanyasharma.com/accounting-advisory.php" class="sidebar-link">Accounting & GAAP Advisory</a>
-          <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing.php" class="sidebar-link active">Business Process Outsourcing</a>
+          <a href="https://www.casaurabhvanyasharma.com/audit-assurance" class="sidebar-link">Audit & Assurance</a>
+          <a href="https://www.casaurabhvanyasharma.com/taxation" class="sidebar-link">Direct & Indirect Taxation</a>
+          <a href="https://www.casaurabhvanyasharma.com/corporate-advisory" class="sidebar-link">Business Consulting & Advisory</a>
+          <a href="https://www.casaurabhvanyasharma.com/international-tax" class="sidebar-link">International Tax & Structuring</a>
+          <a href="https://www.casaurabhvanyasharma.com/accounting-advisory" class="sidebar-link">Accounting & GAAP Advisory</a>
+          <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing" class="sidebar-link active">Business Process Outsourcing</a>
         </div>
       </aside>
 
@@ -91,7 +91,7 @@ include 'includes/header.php';
       <div class="service-main-content">
         <h3>Scaling Business Operations and Minimizing Back-Office Overheads</h3>
         <p>
-          Managing day-to-day accounting, employee payroll, and recurring compliance deadlines in-house requires significant staff time, management supervision, and software licensing costs. At Saurabh Vanya Sharma & Co. (SVS), we act as your back-office partner, taking over regular accounting, payroll, and <a href="https://www.casaurabhvanyasharma.com/taxation.php">GST & TDS compliance</a> operations to let you focus on business growth.
+          Managing day-to-day accounting, employee payroll, and recurring compliance deadlines in-house requires significant staff time, management supervision, and software licensing costs. At Saurabh Vanya Sharma & Co. (SVS), we act as your back-office partner, taking over regular accounting, payroll, and <a href="https://www.casaurabhvanyasharma.com/taxation">GST & TDS compliance</a> operations to let you focus on business growth.
         </p>
         <p>
           We use secure systems to record transactions, manage payroll databases, and compile financial reports. Our bookkeeping services ensure that your accounting ledger matches statutory frameworks, making year-end audits simple and stress-free.
@@ -135,7 +135,7 @@ include 'includes/header.php';
 
         <h4>Providing Audit-Ready Financial Records</h4>
         <p>
-          One of the biggest issues with standard outsourcing providers is that their bookkeeping fails to meet audit requirements. At SVS, since our core capability includes <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php">auditing</a>, our BPO division writes books expecting them to be audited. We maintain comprehensive audit trails, documentation folders, and verification logs, allowing your empanelled statutory auditors to complete reviews without delay.
+          One of the biggest issues with standard outsourcing providers is that their bookkeeping fails to meet audit requirements. At SVS, since our core capability includes <a href="https://www.casaurabhvanyasharma.com/audit-assurance">auditing</a>, our BPO division writes books expecting them to be audited. We maintain comprehensive audit trails, documentation folders, and verification logs, allowing your empanelled statutory auditors to complete reviews without delay.
         </p>
 
         <!-- FAQ Section -->
@@ -176,7 +176,7 @@ include 'includes/header.php';
             <h4>Ready to Delegate Your Back-Office Operations?</h4>
             <p>Speak with our outsourcing partners to design a customized bookkeeping or payroll workflow.</p>
           </div>
-          <a href="https://www.casaurabhvanyasharma.com/contact.php" class="btn btn-primary" style="background-color: var(--color-accent); border-radius: var(--border-radius-sm);">Contact Our Team</a>
+          <a href="https://www.casaurabhvanyasharma.com/contact" class="btn btn-primary" style="background-color: var(--color-accent); border-radius: var(--border-radius-sm);">Contact Our Team</a>
         </div>
       </div>
     </div>

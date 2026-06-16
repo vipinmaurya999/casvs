@@ -21,8 +21,8 @@
 
   <!-- Canonical URL -->
   <?php
-  $scriptName = basename($_SERVER['SCRIPT_NAME']);
-  if ($scriptName == 'index.php') {
+  $scriptName = basename($_SERVER['SCRIPT_NAME'], '.php');
+  if ($scriptName == 'index') {
     $canonicalUrl = "https://www.casaurabhvanyasharma.com/";
   } else {
     $canonicalUrl = "https://www.casaurabhvanyasharma.com/" . $scriptName;
@@ -156,10 +156,10 @@
 
         <!-- Nav Links (Centered) -->
         <nav class="nav-menu" id="navMenu" role="navigation" aria-label="Main Navigation">
-          <a href="https://www.casaurabhvanyasharma.com/index.php"
+          <a href="https://www.casaurabhvanyasharma.com/"
             class="nav-link <?php echo (isset($currentPage) && $currentPage == 'home') ? 'active' : ''; ?>"
             id="navLinkHome">HOME</a>
-          <a href="https://www.casaurabhvanyasharma.com/about.php"
+          <a href="https://www.casaurabhvanyasharma.com/about"
             class="nav-link <?php echo (isset($currentPage) && $currentPage == 'about') ? 'active' : ''; ?>"
             id="navLinkAbout">ABOUT US</a>
           <div
@@ -167,31 +167,31 @@
             <a href="#" class="nav-link nav-dropdown-toggle" id="navLinkServices" aria-haspopup="true"
               aria-expanded="false">SERVICES <span class="arrow" aria-hidden="true">&#9662;</span></a>
             <div class="nav-dropdown-menu" role="menu">
-              <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php"
+              <a href="https://www.casaurabhvanyasharma.com/audit-assurance"
                 class="dropdown-item <?php echo (isset($currentPage) && $currentPage == 'audit-assurance') ? 'active' : ''; ?>"
                 role="menuitem">Audit &amp; Assurance</a>
-              <a href="https://www.casaurabhvanyasharma.com/taxation.php"
+              <a href="https://www.casaurabhvanyasharma.com/taxation"
                 class="dropdown-item <?php echo (isset($currentPage) && $currentPage == 'taxation') ? 'active' : ''; ?>"
                 role="menuitem">Direct &amp; Indirect Taxation</a>
-              <a href="https://www.casaurabhvanyasharma.com/corporate-advisory.php"
+              <a href="https://www.casaurabhvanyasharma.com/corporate-advisory"
                 class="dropdown-item <?php echo (isset($currentPage) && $currentPage == 'corporate-advisory') ? 'active' : ''; ?>"
                 role="menuitem">Business Consulting &amp; Advisory</a>
-              <a href="https://www.casaurabhvanyasharma.com/international-tax.php"
+              <a href="https://www.casaurabhvanyasharma.com/international-tax"
                 class="dropdown-item <?php echo (isset($currentPage) && $currentPage == 'international-tax') ? 'active' : ''; ?>"
                 role="menuitem">International Tax &amp; Structuring</a>
-              <a href="https://www.casaurabhvanyasharma.com/accounting-advisory.php"
+              <a href="https://www.casaurabhvanyasharma.com/accounting-advisory"
                 class="dropdown-item <?php echo (isset($currentPage) && $currentPage == 'accounting-advisory') ? 'active' : ''; ?>"
                 role="menuitem">Accounting &amp; GAAP Advisory</a>
-              <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing.php"
+              <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing"
                 class="dropdown-item <?php echo (isset($currentPage) && $currentPage == 'bpo-outsourcing') ? 'active' : ''; ?>"
                 role="menuitem">Business Process Outsourcing</a>
             </div>
           </div>
-          <a href="https://www.casaurabhvanyasharma.com/industries.php"
+          <a href="https://www.casaurabhvanyasharma.com/industries"
             class="nav-link <?php echo (isset($currentPage) && $currentPage == 'industries') ? 'active' : ''; ?>"
             id="navLinkIndustries">INDUSTRIES</a>
 
-          <a href="https://www.casaurabhvanyasharma.com/contact.php"
+          <a href="https://www.casaurabhvanyasharma.com/contact"
             class="nav-link <?php echo (isset($currentPage) && $currentPage == 'contact') ? 'active' : ''; ?>"
             id="navLinkContact">CONTACT US</a>
         </nav>

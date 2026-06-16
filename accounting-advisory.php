@@ -63,7 +63,7 @@ include 'includes/header.php';
       <h2>Accounting & GAAP Advisory</h2>
     </div>
     <div class="breadcrumb-list">
-      <a href="https://www.casaurabhvanyasharma.com/index.php">Home</a>
+      <a href="https://www.casaurabhvanyasharma.com/index">Home</a>
       <span class="breadcrumb-separator">/</span>
       <span class="breadcrumb-active">Accounting Advisory</span>
     </div>
@@ -78,12 +78,12 @@ include 'includes/header.php';
       <aside class="service-sidebar">
         <h4 class="sidebar-title">Our Capabilities</h4>
         <div class="sidebar-links">
-          <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php" class="sidebar-link">Audit & Assurance</a>
-          <a href="https://www.casaurabhvanyasharma.com/taxation.php" class="sidebar-link">Direct & Indirect Taxation</a>
-          <a href="https://www.casaurabhvanyasharma.com/corporate-advisory.php" class="sidebar-link">Business Consulting & Advisory</a>
-          <a href="https://www.casaurabhvanyasharma.com/international-tax.php" class="sidebar-link">International Tax & Structuring</a>
-          <a href="https://www.casaurabhvanyasharma.com/accounting-advisory.php" class="sidebar-link active">Accounting & GAAP Advisory</a>
-          <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing.php" class="sidebar-link">Business Process Outsourcing</a>
+          <a href="https://www.casaurabhvanyasharma.com/audit-assurance" class="sidebar-link">Audit & Assurance</a>
+          <a href="https://www.casaurabhvanyasharma.com/taxation" class="sidebar-link">Direct & Indirect Taxation</a>
+          <a href="https://www.casaurabhvanyasharma.com/corporate-advisory" class="sidebar-link">Business Consulting & Advisory</a>
+          <a href="https://www.casaurabhvanyasharma.com/international-tax" class="sidebar-link">International Tax & Structuring</a>
+          <a href="https://www.casaurabhvanyasharma.com/accounting-advisory" class="sidebar-link active">Accounting & GAAP Advisory</a>
+          <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing" class="sidebar-link">Business Process Outsourcing</a>
         </div>
       </aside>
 
@@ -135,7 +135,7 @@ include 'includes/header.php';
 
         <h4>Establishing Internal Operational Controls through SOPs</h4>
         <p>
-          Without structured workflows, businesses risk errors, duplicate payments, or fraudulent activities. SVS designs customized Standard Operating Procedures (SOPs) for corporate finance operations. By documenting process owners, control points, and approval matrices, we establish workflows that standardize accounting records and simplify <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php">statutory and internal audits</a>. For ongoing day-to-day accounting support, see our <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing.php">BPO &amp; Outsourcing services</a>.
+          Without structured workflows, businesses risk errors, duplicate payments, or fraudulent activities. SVS designs customized Standard Operating Procedures (SOPs) for corporate finance operations. By documenting process owners, control points, and approval matrices, we establish workflows that standardize accounting records and simplify <a href="https://www.casaurabhvanyasharma.com/audit-assurance">statutory and internal audits</a>. For ongoing day-to-day accounting support, see our <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing">BPO &amp; Outsourcing services</a>.
         </p>
 
         <!-- FAQ Section -->
@@ -176,7 +176,7 @@ include 'includes/header.php';
             <h4>Ready to Upgrade Your Financial Reporting?</h4>
             <p>Speak with our GAAP advisors to plan your Ind-AS conversion or write corporate SOPs.</p>
           </div>
-          <a href="https://www.casaurabhvanyasharma.com/contact.php" class="btn btn-primary" style="background-color: var(--color-accent); border-radius: var(--border-radius-sm);">Contact Our Team</a>
+          <a href="https://www.casaurabhvanyasharma.com/contact" class="btn btn-primary" style="background-color: var(--color-accent); border-radius: var(--border-radius-sm);">Contact Our Team</a>
         </div>
       </div>
     </div>

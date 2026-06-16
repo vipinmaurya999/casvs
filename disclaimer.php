@@ -14,7 +14,7 @@ include 'includes/header.php';
       <h2>Disclaimer</h2>
     </div>
     <div class="breadcrumb-list">
-      <a href="https://www.casaurabhvanyasharma.com/index.php">Home</a>
+      <a href="https://www.casaurabhvanyasharma.com/index">Home</a>
       <span class="breadcrumb-separator">/</span>
       <span class="breadcrumb-active">Disclaimer</span>
     </div>
@@ -49,7 +49,7 @@ include 'includes/header.php';
       </ul>
 
       <p style="margin-top: 1rem;">
-        If you require specific professional advice, we recommend consulting a qualified Chartered Accountant to review the particulars of your case. For any queries, you may reach us through our verified coordinates on the <a href="https://www.casaurabhvanyasharma.com/contact.php" style="color: var(--color-primary); font-weight: 600;">Contact Page</a>.
+        If you require specific professional advice, we recommend consulting a qualified Chartered Accountant to review the particulars of your case. For any queries, you may reach us through our verified coordinates on the <a href="https://www.casaurabhvanyasharma.com/contact" style="color: var(--color-primary); font-weight: 600;">Contact Page</a>.
       </p>
     </div>
   </div>

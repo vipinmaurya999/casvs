@@ -14,7 +14,7 @@ include 'includes/header.php';
       <h2>Privacy Policy</h2>
     </div>
     <div class="breadcrumb-list">
-      <a href="https://www.casaurabhvanyasharma.com/index.php">Home</a>
+      <a href="https://www.casaurabhvanyasharma.com/index">Home</a>
       <span class="breadcrumb-separator">/</span>
       <span class="breadcrumb-active">Privacy Policy</span>
     </div>

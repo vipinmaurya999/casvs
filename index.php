@@ -93,10 +93,10 @@ include 'includes/header.php';
       <span class="section-label">Who We Are</span>
       <h3 class="section-title">Empowering Businesses With Insight & Integrity</h3>
       <p>
-        Saurabh Vanya Sharma & Co (SVS) is a Chartered Accountancy firm delivering <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php">audit & assurance</a>, <a href="https://www.casaurabhvanyasharma.com/taxation.php">taxation</a>, consulting, and advisory services for 25+ years. We help organizations stay compliant, improve controls, and make informed decisions.
+        Saurabh Vanya Sharma & Co (SVS) is a Chartered Accountancy firm delivering <a href="https://www.casaurabhvanyasharma.com/audit-assurance">audit & assurance</a>, <a href="https://www.casaurabhvanyasharma.com/taxation">taxation</a>, consulting, and advisory services for 25+ years. We help organizations stay compliant, improve controls, and make informed decisions.
       </p>
       <p>
-        At SVS, we go beyond traditional bookkeeping. With a team of experienced professionals in <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php">audit</a>, <a href="https://www.casaurabhvanyasharma.com/taxation.php">taxation</a>, <a href="https://www.casaurabhvanyasharma.com/corporate-advisory.php">corporate finance</a>, and compliance, we provide customized solutions that drive growth. Whether you are a startup, a growing business, or an established enterprise, we bring clarity, compliance, and confidence to your financial ecosystem. <a href="https://www.casaurabhvanyasharma.com/about.php">Learn more about us →</a>
+        At SVS, we go beyond traditional bookkeeping. With a team of experienced professionals in <a href="https://www.casaurabhvanyasharma.com/audit-assurance">audit</a>, <a href="https://www.casaurabhvanyasharma.com/taxation">taxation</a>, <a href="https://www.casaurabhvanyasharma.com/corporate-advisory">corporate finance</a>, and compliance, we provide customized solutions that drive growth. Whether you are a startup, a growing business, or an established enterprise, we bring clarity, compliance, and confidence to your financial ecosystem. <a href="https://www.casaurabhvanyasharma.com/about">Learn more about us →</a>
       </p>
     </div>
   </div>
@@ -220,7 +220,7 @@ include 'includes/header.php';
         <p>
           Statutory Audits, Tax Audits, Internal Audits, Management Audits, Stock Audits, and evaluating Internal Financial Controls (IFC) to ensure robust compliance.
         </p>
-        <a href="https://www.casaurabhvanyasharma.com/audit-assurance.php" class="service-link">Learn more</a>
+        <a href="https://www.casaurabhvanyasharma.com/audit-assurance" class="service-link">Learn more</a>
       </div>
 
       <!-- Service 2: Business Consulting -->
@@ -234,7 +234,7 @@ include 'includes/header.php';
         <p>
           Corporate & Commercial Advisory, M&A Transactions, Secretarial Services, Company Registrations, Business Restructuring, and Resolution of Stressed Assets.
         </p>
-        <a href="https://www.casaurabhvanyasharma.com/corporate-advisory.php" class="service-link">Learn more</a>
+        <a href="https://www.casaurabhvanyasharma.com/corporate-advisory" class="service-link">Learn more</a>
       </div>
 
       <!-- Service 3: Taxation -->
@@ -248,7 +248,7 @@ include 'includes/header.php';
         <p>
           Direct & Indirect Taxes, Income Tax Return filing, GST Compliance, Tax Planning, representation in litigations, and processing of refunds.
         </p>
-        <a href="https://www.casaurabhvanyasharma.com/taxation.php" class="service-link">Learn more</a>
+        <a href="https://www.casaurabhvanyasharma.com/taxation" class="service-link">Learn more</a>
       </div>
 
       <!-- Service 4: International Tax -->
@@ -262,7 +262,7 @@ include 'includes/header.php';
         <p>
           Cross-Border Transactions Advisory, FEMA/RBI Compliances, Transfer Pricing Audits & Documentation, and Joint Venture setup advisory.
         </p>
-        <a href="https://www.casaurabhvanyasharma.com/international-tax.php" class="service-link">Learn more</a>
+        <a href="https://www.casaurabhvanyasharma.com/international-tax" class="service-link">Learn more</a>
       </div>
 
       <!-- Service 5: Accounting & GAAP -->
@@ -276,7 +276,7 @@ include 'includes/header.php';
         <p>
           Conversion of financial statements to IND-AS & IFRS, writing Standard Operating Procedures (SOP), and drafting key accounting manuals.
         </p>
-        <a href="https://www.casaurabhvanyasharma.com/accounting-advisory.php" class="service-link">Learn more</a>
+        <a href="https://www.casaurabhvanyasharma.com/accounting-advisory" class="service-link">Learn more</a>
       </div>
 
       <!-- Service 6: BPO Outsourcing -->
@@ -290,7 +290,7 @@ include 'includes/header.php';
         <p>
           End-to-end accounting support, monthly Payroll processing, filing of GST & TDS returns, and coordinating with statutory auditors.
         </p>
-        <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing.php" class="service-link">Learn more</a>
+        <a href="https://www.casaurabhvanyasharma.com/bpo-outsourcing" class="service-link">Learn more</a>
       </div>
     </div>
   </div>
